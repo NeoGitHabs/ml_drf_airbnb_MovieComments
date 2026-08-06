@@ -1,4 +1,3 @@
-from django.core.serializers import serialize
 from rest_framework import generics, permissions, views, status
 from .filters import PropertyFilter
 from .permissions import IsOwner, IsGuest
